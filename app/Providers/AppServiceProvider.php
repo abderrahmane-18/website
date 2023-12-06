@@ -4,7 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\UrlGenerator;
-
+use Spatie\Export\Exporter;
 class AppServiceProvider extends ServiceProvider
 {
    
@@ -29,12 +29,10 @@ public function boot(\Illuminate\Http\Request $request)
     }
 }
 */
-public function boot(UrlGenerator $url)
-{
-    if (env('APP_ENV') == 'production') {
-        $url->forceScheme('https');
+public function boot(Exporter $exporter)
+    {
+        $exporter->crawl(false);
     }
-}
 }
 
 
