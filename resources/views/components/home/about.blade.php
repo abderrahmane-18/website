@@ -29,7 +29,7 @@
             </li>
           
             <li >
-              <x-button-link href="{{url('/files/abderrahmane-cv.pdf')}}" download="abderrahmane Resume.pdf" target="_blank" variant="primary" class="rounded-lg ">
+              <x-button-link href="{{url('/files/abderrahmane_boukhezar_cv.pdf')}}" download="abderrahmane Resume.pdf" target="_blank" variant="primary" class="rounded-lg ">
                 Download CV
               </x-button-link>
             </li>
