@@ -142,7 +142,7 @@
             <h4 class="font-bold text-dark dark:text-gray-200 text-xl mb-1">
               Email Address
             </h4>
-            <p class="text-base text-body-color dark:text-gray-300">boukhezar18@gmail.com</p>
+            <p class="text-base text-body-color dark:text-gray-300">contact@boukhezar.com</p>
           </div>
         </div>
       </div>
